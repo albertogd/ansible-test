@@ -1,0 +1,10 @@
+- name: Ansible test
+  hosts: all
+
+  tasks:
+
+    - name: test
+      include_role:
+        name: notifier
+
+

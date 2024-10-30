@@ -1,0 +1,4 @@
+- src: https://github.com/albertogd/ansible-test.git
+  scm: git
+  version: role
+  name: notifier
