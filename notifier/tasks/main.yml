@@ -4,4 +4,4 @@
 - name: Test notify
   pos_notify:
     name: abc
-    new: def
+    new: true
