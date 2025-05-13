@@ -2,5 +2,5 @@
 plugin: ibm.power_hmc.powervm_inventory
 hmc_hosts:
   - hmc: 8.8.8.8
-    user: "{{ hmc_user }}"
-    password: "{{ hmc_password }}"
+    user: "{{ lookup('env', 'hmc_user') }}"
+    password: "{{ lookup('env', 'hmc_password') }}"
