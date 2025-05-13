@@ -1,3 +1,4 @@
+---
 plugin: ibm.power_hmc.powervm_inventory
 hmc_hosts:
   - hmc: 8.8.8.8
